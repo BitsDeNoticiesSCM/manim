@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG:
+# Call with ffmpeg -f concat -safe 0 -i Monge.txt -c copy TeoremaDeMongeFinal.mp4           
+file 'file:media/videos/scene/480p15/TeoremaDeMonge1.mp4'
+file 'file:media/videos/scene/480p15/TeoremaDeMonge2.mp4'
+file 'file:media/videos/scene/480p15/TeoremaDeMonge3.mp4'
+
