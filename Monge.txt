@@ -4,3 +4,5 @@ file 'file:media/videos/scene/480p15/TeoremaDeMonge1.mp4'
 file 'file:media/videos/scene/480p15/TeoremaDeMonge2.mp4'
 file 'file:media/videos/scene/480p15/TeoremaDeMonge3.mp4'
 
+
+# Join audio using ffmpeg -i TeoremaDeMongeFinal.mp4 -i TeoremaDeMongeFinal.mp3 -map 0:v -map 1:a -c:v copy -shortest TeoremaDeMongeSonor.mp4
